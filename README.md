@@ -15,7 +15,7 @@ composer require getinitials/getinitials
 ## Usage
 
 ```php
-// Usage description here
+$name = new Getinitials('enter fullname');
 ```
 
 ### Testing
