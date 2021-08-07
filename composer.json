@@ -1,8 +1,8 @@
 {
-    "name": "getinitials/getinitials",
+    "name": "blackdante101/getinitials",
     "description": "returns name initials from string",
     "keywords": [
-        "getinitials",
+        "blackdante101",
         "getinitials"
     ],
     "homepage": "https://github.com/blackdante101/getinitials",
@@ -25,12 +25,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Getinitials\\Getinitials\\": "src"
+            "Blackdante101\\Getinitials\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Getinitials\\Getinitials\\Tests\\": "tests"
+            "Blackdante101\\Getinitials\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Getinitials\\Getinitials\\GetinitialsServiceProvider"
+                "Blackdante101\\Getinitials\\GetinitialsServiceProvider"
             ],
             "aliases": {
-                "Getinitials": "Getinitials\\Getinitials\\GetinitialsFacade"
+                "Getinitials": "Blackdante101\\Getinitials\\GetinitialsFacade"
             }
         }
     }
