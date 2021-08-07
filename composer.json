@@ -16,11 +16,9 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^8.0"
+        "php": "^7.4|^8.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^6.0",
         "phpunit/phpunit": "^9.0"
     },
     "autoload": {
@@ -40,15 +38,5 @@
     },
     "config": {
         "sort-packages": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Blackdante101\\Getinitials\\GetinitialsServiceProvider"
-            ],
-            "aliases": {
-                "Getinitials": "Blackdante101\\Getinitials\\GetinitialsFacade"
-            }
-        }
     }
 }

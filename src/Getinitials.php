@@ -1,16 +1,20 @@
 <?php
 
-namespace Getinitials\Getinitials;
+namespace Blackdante101\Getinitials;
 
 class Getinitials
 {
-    public function __construct($string)
-        {
-         $names = explode(' ',$string);
-         foreach($names as $name)
-         {
-             echo $name[0];
-         }
-        }
-    }
+     public $value;
+      public function __construct($string){
+          $names = explode(" ",$string);
+          $initials = array();
+          foreach($names as $name)
+          {
+              array_push($initials,$name[0]);
+          }
+          $this->value = join("",$initials);
+      }
+      public function display(){
+          echo $this->value;
+      }
 }

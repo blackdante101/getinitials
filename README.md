@@ -1,21 +1,22 @@
-# Returns name initials from string
+# Returns initials from string
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/getinitials/getinitials.svg?style=flat-square)](https://packagist.org/packages/getinitials/getinitials)
-[![Total Downloads](https://img.shields.io/packagist/dt/getinitials/getinitials.svg?style=flat-square)](https://packagist.org/packages/getinitials/getinitials)
-![GitHub Actions](https://github.com/getinitials/getinitials/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/blackdante101/getinitials.svg?style=flat-square)](https://packagist.org/packages/blackdante101/getinitials)
+[![Total Downloads](https://img.shields.io/packagist/dt/blackdante101/getinitials.svg?style=flat-square)](https://packagist.org/packages/blackdante101/getinitials)
+![GitHub Actions](https://github.com/blackdante101/getinitials/actions/workflows/main.yml/badge.svg)
 
 ## Installation
 
 You can install the package via composer:
 
 ```bash
-composer require getinitials/getinitials
+composer require blackdante101/getinitials
 ```
 
 ## Usage
 
 ```php
-$name = new Getinitials('enter fullname');
+$initials = new Getinitials("Enter Fullname Here");
+$initials->display();
 ```
 
 ### Testing
@@ -38,13 +39,13 @@ If you discover any security related issues, please email charismacaptain694@gma
 
 ## Credits
 
--   [Abukari Einus](https://github.com/getinitials)
+-   [Abukari Einus](https://github.com/blackdante101)
 -   [All Contributors](../../contributors)
 
 ## License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-## Laravel Package Boilerplate
+## PHP Package Boilerplate
 
-This package was generated using the [Laravel Package Boilerplate](https://laravelpackageboilerplate.com).
+This package was generated using the [PHP Package Boilerplate](https://laravelpackageboilerplate.com) by [Beyond Code](http://beyondco.de/).
